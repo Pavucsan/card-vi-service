@@ -1,12 +1,12 @@
-spring:
-  application:
-    name: card
-  cloud:
-    config:
-      uri: http://localhost:8899
-      profile: dev
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
+#spring:
+#  application:
+#    name: card
+#  cloud:
+#    config:
+#      uri: http://localhost:8899
+#      profile: dev
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
