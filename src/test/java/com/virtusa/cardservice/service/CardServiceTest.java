@@ -27,7 +27,7 @@ public class CardServiceTest {
 
     @BeforeEach
     public void setup() {
-        MockitoAnnotations.openMocks(this);
+        MockitoAnnotations.initMocks(this);// .openMocks(this);
     }
 
     @Test
