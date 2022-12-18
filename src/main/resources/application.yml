@@ -3,10 +3,22 @@ server:
 
 spring:
   application:
-    name: card
+    name: card-service
   profiles:
     active:
           - dev
 
+# eureka client-server configuration
+eureka:
+  client:
+    service-url:
+      defaultZone: 	http://localhost:8761/eureka/
+
+# actuator /info endpoint
+info:
+  app:
+    name: card-service
+    description: This is card service to maintain the card for virtusa assignment
+    version: 1.0.0
 
 
