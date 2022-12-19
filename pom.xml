@@ -12,7 +12,7 @@
 	<artifactId>card-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>card-service</name>
-	<description>card-service project for iLabs</description>
+	<description>card-service project for virtusa</description>
 	<properties>
 		<java.version>1.8</java.version>
 		<spring-cloud.version>Hoxton.SR11</spring-cloud.version>
