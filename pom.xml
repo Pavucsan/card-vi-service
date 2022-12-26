@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>card-service</name>
 	<description>card-service project for virtusa</description>
+	<packaging>war</packaging>
 	<properties>
 		<java.version>1.8</java.version>
 		<spring-cloud.version>Hoxton.SR11</spring-cloud.version>
@@ -88,6 +89,7 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>card-service</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

@@ -2,14 +2,12 @@ package com.virtusa.cardservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-//@EnableResourceServer
-//@EnableGlobalMethodSecurity(prePostEnabled = true)
-public class CardServiceApplication {
+public class CardServiceApplication extends SpringBootServletInitializer {
     public static void main(String[] args) {
         SpringApplication.run(CardServiceApplication.class, args);
     }
