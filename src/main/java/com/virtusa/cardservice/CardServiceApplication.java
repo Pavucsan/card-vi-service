@@ -7,7 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class CardServiceApplication extends SpringBootServletInitializer {
+public class CardServiceApplication {
     public static void main(String[] args) {
         SpringApplication.run(CardServiceApplication.class, args);
     }
